@@ -14,4 +14,3 @@ print(pprint.pprint(r.json()))
 print("\n---------------- headers ----------------")
 for key, value in r.headers.items():
     print(key, ' => ', value)
-
